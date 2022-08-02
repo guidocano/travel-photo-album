@@ -154,7 +154,7 @@ h1 {
 
 .footer {
   background-color: rgb(185, 65, 105);
-  position:sticky;
+  position:fixed;
   bottom: 0;
   width: 100vw;
   height: 30px;
