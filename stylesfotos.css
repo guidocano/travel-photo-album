@@ -127,7 +127,8 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
+  position: relative;
+  min-height: 100vh;  
 }
 
 .item {
