@@ -286,4 +286,14 @@ footer {
     font-size: 30px;
   }
 
+  #textocuerpo-about {
+    display: flex;
+  }
+
+  .about-childs {
+    width: 50%;
+    margin: 0px;
+
+  }
+
 }
