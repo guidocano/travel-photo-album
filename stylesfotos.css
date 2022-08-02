@@ -4,6 +4,10 @@ body {
   padding: 0px;
 }
 
+.body-about{
+  height: 100vh;
+  overflow: hidden
+}
 
 /* NAVBAR */
 
@@ -251,14 +255,18 @@ footer {
       opacity: 1;
       }
   }
+
   .navtext {
     padding: 4%;
     font-size: x-large;
   }
+  
   h1 {
     font-size: 50px;
   }
+
  body {
+    /* height: 100vh; */
     background-color: #36a7dc;
     background-image: linear-gradient(
       103deg,
@@ -268,7 +276,16 @@ footer {
       #a3e5dd 95%,
       #ffffff 100%
     );
+    /* overflow: hidden; */
   }
+
+  .body-about{
+    height: 100vh;
+    overflow: hidden
+  }
+
+
+
   #textocuerpo {
     font-size: 30px;
 }
@@ -293,7 +310,6 @@ footer {
   .about-childs {
     width: 50%;
     margin: 0px;
-
   }
 
 }
