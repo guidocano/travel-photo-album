@@ -127,6 +127,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .item {
@@ -191,7 +192,7 @@ footer {
 }  
 
 .footer_about {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   width: 100vw;
 }
