@@ -19,20 +19,12 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
-
-
 #logocamera {
   width: 30px;
   vertical-align: sub;
   padding-right: 0%;
   border-radius: 50%;
-  /* transition: all 0.4s ease; */
 }
-
-/* #logocamera:hover{
-  box-shadow: 2px 2px 40px rgba(185, 65, 105, 0.6);
-} */
-
 
 .navbar span{
   display:none;
@@ -117,18 +109,24 @@ body {
   padding-right: 40px;
   text-shadow: 1px 1px 5px black;
 }
+
+#textocuerpo-about {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 22px;
+  padding-right: 20px;
+  text-shadow: 1px 1px 5px black;
+}
+
 #p2 {
   font-size: 20px;
-  }
+}
 
 #contenedor {
-  /* border: 1px black solid; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  position: relative;
-  min-height: 100vh;  
+  overflow: hidden;
 }
 
 .item {
@@ -193,7 +191,7 @@ footer {
 }  
 
 .footer_about {
-  position: absolute;
+  position: sticky;
   bottom: 0;
   width: 100vw;
 }

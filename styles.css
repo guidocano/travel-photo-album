@@ -2,7 +2,7 @@ html,
 body {
   margin: 0px;
   padding: 0px;
-  height: auto;
+  min-height: 100vh;
 }
 
 /* NAVBAR */
@@ -154,7 +154,7 @@ h1 {
 
 .footer {
   background-color: rgb(185, 65, 105);
-  position:absolute;
+  position:sticky;
   bottom: 0;
   width: 100vw;
   height: 30px;
