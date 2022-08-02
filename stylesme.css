@@ -1,11 +1,29 @@
-html,
+*, html {
+  margin-bottom: 0px;
+
+}
+
 body {
   margin: 0px;
   padding: 0px;
+  margin-top: 70px;
+  background-image: linear-gradient(
+    112deg,
+    #36a7dc 0%,
+    #90cde9 11%,
+    #6dcbf1 73%,
+    #a3e5dd 95%,
+    #ffffff 100%
+  );
+  margin-bottom: 0px!important;
 }
 
 
 /* NAVBAR */
+
+header {
+  z-index: 999;
+}
 
 .navbar a{
   transition: all 0.4s ease;
@@ -26,6 +44,7 @@ body {
   padding: 5px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+
 #logocamera {
   width: 30px;
   vertical-align: sub;
@@ -75,6 +94,7 @@ h1 {
     animation: banderita 1.5s 0.5s 1 normal forwards;
     opacity: 0;
     border: 0.1px whitesmoke solid;
+    z-index: -10;
     }
   
   @keyframes banderita {
@@ -92,22 +112,6 @@ h1 {
       }
   }
 
-html{
-  background-image: linear-gradient(
-    112deg,
-    #36a7dc 0%,
-    #90cde9 11%,
-    #6dcbf1 73%,
-    #a3e5dd 95%,
-    #ffffff 100%
-  );
-  height: 100vh;
-}
-
-body {
-  margin-top: 70px;
-}
-
 #textocuerpo {
  font-family: "Open Sans Condensed", sans-serif;
   font-size: 22px;
@@ -119,16 +123,15 @@ body {
   text-align: justify;
 }
 
-#contenedor {
-/* border: 1px black solid; */
+/* #contenedor {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 5%;
-}
+} */
 
 .item {
+  margin: 50px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   background-color: whitesmoke;
   color: black;
@@ -174,9 +177,9 @@ footer {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: medium;
   vertical-align: middle;
-  bottom: 0;
+  bottom: 0!important;
   height: 30px;
-  position:absolute;
+  position:absolute!important;
   width: 100vw;
 }
 
@@ -247,7 +250,7 @@ a.wlink:visited {
     font-size: 50px;
   }
 
- html {
+ body {
     background-image: linear-gradient(
       103deg,
       #36a7dc 0%,
@@ -256,7 +259,6 @@ a.wlink:visited {
       #a3e5dd 95%,
       #ffffff 100%
     );
-    height: 100vh;
   }
 
   #textocuerpo {
@@ -290,7 +292,7 @@ a.wlink:visited {
   }
 
   footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
   }

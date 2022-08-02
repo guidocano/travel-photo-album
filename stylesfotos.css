@@ -63,6 +63,7 @@ header{
   top: 0;
   height: 40px;
   overflow: hidden;
+  z-index: 999;
 }
 
 h1 {
@@ -151,6 +152,8 @@ body {
   text-align: center;
   font-size: 15px;
   padding-top: 15px;
+  color: black;
+  text-shadow: none;
 }
 
 .item img {
@@ -172,7 +175,7 @@ body {
   color: rgb(185, 65, 105);
 }
 
-.footer {
+footer {
   background-color: rgb(185, 65, 105);
   color: whitesmoke;
   text-align: center;
@@ -180,6 +183,8 @@ body {
   font-size: medium;
   vertical-align: middle;
   height: 30px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer_text{
@@ -187,6 +192,12 @@ body {
   display : inline-block;
   vertical-align : middle;
 }  
+
+.footer_about {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
 
   a.wlink:link {
     color: whitesmoke;
