@@ -43,7 +43,7 @@ body {
 
 .navtext:hover {
   border: 0px rgb(185, 65, 105) solid;
-  background-color: rgb(185, 65, 105);;
+  background-color: rgb(185, 65, 105);
   padding: 4%;
   border-radius: 30;
   color: whitesmoke!important
@@ -153,12 +153,14 @@ h1 {
 
 
 .footer {
-  background-color: rgb(185, 65, 105);
+  /* background-color: rgb(185, 65, 105); */
+  background-color: whitesmoke;
   position:fixed;
   bottom: 0;
   width: 100vw;
   height: 30px;
-  color: whitesmoke;
+  color: #666;
+  font-weight: bold;
   text-align:center;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: medium;
@@ -171,11 +173,11 @@ h1 {
 }
 
 a.wlink:link {
-  color: whitesmoke;
+  color:  rgb(185, 65, 105);
 }
 
 a.wlink:visited {
-  color: whitesmoke;
+  color:  rgb(185, 65, 105);;
 }
 
 @media screen and (min-width: 480px) {
